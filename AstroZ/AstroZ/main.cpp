@@ -13,7 +13,6 @@ bool GetFor() {
 		GetSystemPowerStatus(&powerStatus);
 		powerUsage = (float)powerStatus.BatteryLifePercent;
 
-		gpuUsage = (float)0.0f;
 
 		SYSTEM_INFO systemInfo;
 		GetSystemInfo(&systemInfo);
