@@ -7,7 +7,7 @@ using namespace std;
 bool GetFor() {
 	while (true)
 	{
-		float powerUsage, gpuUsage, cpuUsage, ramUsage;
+		float powerUsage, cpuUsage, ramUsage;
 
 		SYSTEM_POWER_STATUS powerStatus;
 		GetSystemPowerStatus(&powerStatus);
